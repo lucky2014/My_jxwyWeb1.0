@@ -1,0 +1,70 @@
+/*公共部分*/
+*{ list-style:none; padding:0; margin:0; font-size: 16px; font-family: "微软雅黑";}
+a{ cursor: pointer;}
+/*下载页面*/
+.d_Footer,.d_header{ background: #373e48; padding: 16px 0; text-align: center; color: #fff;}
+.d_wrap{ min-width: 1200px;}
+.d_header{ font-size: 22px; padding-right: 500px;}
+
+.d_Ecode{ overflow: hidden; clear: both; width: 1024px; padding-left: 10px; margin: 0 auto; border-bottom: 1px solid #d7d7d7; margin-bottom: 12px; }
+.d_Ecode dl{ float: left; width: 48.9%; position: relative;}
+.d_Ecode dl:last-child{ padding-left: 20px; padding-bottom: 10px; overflow: hidden; border-left: 1px solid #d7d7d7;}
+.d_Ecode dl dt{ position: absolute; left: 0; top: 100px; width: 30px; font-size: 24px; color: #797979; line-height: 28px;}
+.d_Ecode dl:last-child dt{ left: 22px;}
+.d_Ecode dl dd{ padding-left: 28px; text-align: center;}
+.d_Ecode dl img{ display: inline-block; margin: 4px 22px 4px 0;}
+.d_Ecode dl a.hasLink{ width: 230px; text-align: center; display: inline-block;}
+.d_Ecode dl dd div{ clear: both;}
+/*首页*/
+.w_header{height:80px;position: fixed;top: 0;left: 0;width: 100%;z-index: 9999;background-color: #fff; border-bottom: 1px solid #dbdada;}
+.w_header .logo{height: 60px;float: left; margin-top: 10px;}
+.w_header .logo img{height: 100%;margin-left: 50px;margin-right: 50px;}
+.w_header .w_width{ width: 1100px; margin: 0 auto; overflow: hidden;}
+.w_header #menu{height: 100%;float: right;width: 55%; text-align: right; font-size: 18px;}
+.w_header #menu li{ display:inline-block; margin: 30px 9px 0; padding-right: 20px; border-right: 1px solid #b3b3b3;line-height: 24px;}
+.w_header #menu li:last-child{ border-right:none;}
+.w_header #menu li a{text-decoration: none;color: #000;height: 100%;width: 100%;display: inline-block; font-size: 18px;}
+.w_header #menu li.active a{color: #3993d0;}
+
+.w_dpage{ background: url(../images/w1_bg.png) left 80px repeat-x;}
+.sectionCon .w_width{ width: 1100px; margin: 0 auto; overflow: hidden; padding-top: 80px; padding-top: 120px;}
+.w_dpage .w_width .r{ float: left; width: 59.9%;}
+.w_dpage .w_width .l{ width: 39.9%;float: left; font-size: 20px; color: #000; text-align: center; padding-top: 70px;}
+.w_dpage .w_width .l span{ color: #888; display: block; margin: 10px 0 0; padding-bottom: 10px;}
+.w_dpage .w_width .l img{ display: block; margin: 0 auto; margin-top: 20px;}
+
+.w_H1{ border-bottom: 1px solid #dcdbdb; height: 50px; text-align: center; background: #fff;}
+.w_H1 div{ display: inline-block; background: #fff; padding: 20px;}
+.w_H1 div h1{ font-size: 20px; padding-bottom: 4px;}
+.w_H1 div span{ color: #888;}
+
+.sectionCon{ background: #fff;}
+.sectionCon li{ float: left; width: 18.9%; padding: 0 3%; text-align: center;}
+
+.pageCon4{ position: relative;}
+.pageCon4 img{ width: 80px;}
+.pageCon4 strong{ display: block; font-size: 20px; display: block; padding: 12px 0;}
+.pageCon4 p{ color: #888; font-size: 15px;}
+.pageCon4 .cpFooter{ clear: both; padding: 20px 0; text-align: center; background: #272626; color: #fff; position: absolute; 
+left: 0; bottom: 0; width: 100%;}
+.pageCon4 .w_width{ width: 1050px; margin: 0 auto; padding-left: 50px;}
+
+.cpRight{ width: 500px; padding: 60px 30px 40px; line-height: 30px; margin: 0 auto;}
+
+.pageCon2{ padding-top: 80px;}
+.pageCon2 dl{ float: left; width: 35.9%; padding-left: 14%;}
+.pageCon2 dt{ padding: 50px 0; color: #888;}
+.pageCon2 dt span{ font-size: 20px; color: #000;}
+.pageCon2 dl dd{ position: relative; padding:0 0 20px 100px;}
+.pageCon2 dl dd strong{ padding-bottom: 20px; font-size: 18px;}
+.pageCon2 dl dd img{ position: absolute; left: 0; top: -10px; height: 70px;}
+.pageCon2 dl dd p{ color: #888; font-size: 15px;}
+
+.bcg{ background: url(../images/w_banner.jpg) center 174px repeat-x; height: 100%;}
+
+@media screen and (min-width: 1500px) {
+   .w_dpage .w_width .l{ padding-top: 170px;}
+   .w_dpage .w_width .r{ padding-top: 60px;}
+   .pageCon2 dl dd{padding: 0 0 60px 100px;}
+   .pageCon4 .w_width{ padding-top: 180px;}
+}
