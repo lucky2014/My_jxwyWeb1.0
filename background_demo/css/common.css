@@ -1,0 +1,52 @@
+*{ margin: 0; padding: 0; list-style: none; font-family: 'microsoft yahei'; font-size: 14px;}
+body{ background: #edf0f6;}
+a{ cursor: pointer; text-decoration: none;}
+.hide{ display: none;}
+
+.header{ background: #0a1727; overflow: hidden; padding-right: 16px;}
+.header .logo{ float: left;}
+.header a,.header ul,.header li{ float: right; margin: 0 10px; color: #fff; line-height: 58px;}
+.header a:hover{ text-decoration: underline;}
+.header li img{ vertical-align: top; margin-top: 12px; margin-right: 8px;}
+
+.aside{ position: fixed; left: 0; top: 59px; bottom: 0; width: 220px; background: #16283e;}
+.aside dl{ }
+.aside dl dt{position: relative; color: #8ea5c3; height: 46px; line-height: 46px; cursor: pointer;}
+.aside dl dt a{font-size: 16px; }
+.aside dl dt img{ display: inline-block; vertical-align: top; margin: 9px 7px 0 10px;}
+.aside dl dt img.triangleDown{ position: absolute; right: 14px; top: 50%; margin-top: -5px;}
+.aside dl dd{ padding: 10px 0; background: #0c1a2d;}
+.aside dl li{ padding-left: 30px; height: 32px; line-height: 32px; cursor: pointer;}
+.aside dl li a{ color: #8ea5c3;}
+.aside dl li img{ display: inline-block; vertical-align: top; margin: 8px 7px 0 10px;}
+.aside dl li.active{ background: url(../imgs/triangleLeft.png) right 2px no-repeat;}
+.aside dl li.active a{ color: #e96880;}
+.aside a{ display: block;}
+.aside dl a:hover{ text-decoration: underline;}
+
+/*中间内容*/
+.wrap{ padding:14px 0 14px 220px; }
+.crumb{ padding: 0 14px 14px;}
+.crumb,.crumb a, .crumb span{ font-size: 16px;}
+.searchParent{ background: #e7ecf6; padding: 14px;}
+.searchParent li{ display: inline-block; margin-right: 14px;}
+.searchParent li label{}
+.searchParent li input[type=text]{ background: #fbfcfe; border: none; min-width: 80px; height: 28px; line-height: 28px; padding: 0 6px;}
+.searchParent li input[type=submit]{ background: #569dfa; color: #fff; border-radius: 6px; border: none; padding: 8px 22px;}
+
+.table{ padding: 14px;}
+.table .tableBtn{ text-align: left; padding-bottom: 8px; padding-right: 2px; overflow: hidden;}
+.table .tableBtn span.btn{ float: left;}
+.table .tableBtn span.page{ float: right;}
+.table .tableBtn a{ display: inline-block; border: 1px solid #060606; padding: 6px 8px; color: #06c; margin-right: -1px; 
+color: #060606; background: #e2edfc;}
+.table .tableBtn a.first{border-top-left-radius: 3px; border-bottom-left-radius: 3px;}
+.table .tableBtn a.last{border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+.table table{ border-spacing: 0; border-collapse: collapse; border-top: 1px solid #bbb; border-left: 1px solid #bbb; width: 100%;}
+.table th,.table td{ padding: 8px; line-height: 18px; border-right: 1px solid #bbb; border-bottom: 1px solid #bbb;}
+.table th{ background: #cddcfa; padding: 10px 0;}
+.table td a{ display: inline-block; padding: 0 6px; color: #06c;}
+.table td a:hover{ text-decoration: underline;}
+
+/*分页*/
+
